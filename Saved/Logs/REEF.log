@@ -1,0 +1,96 @@
+﻿Log file open, 07/18/17 18:19:10
+LogInit:Display: Running engine for game: REEF
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1630368030) SRandInit(-1630368030).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.124174
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.18-22.19.12:041][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.18-22.19.12:041][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.18-22.19.12:061][  0]LogInit: Computer: GAMEU07
+[2017.07.18-22.19.12:061][  0]LogInit: User: Instructor
+[2017.07.18-22.19.12:061][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.07.18-22.19.12:061][  0]LogInit: High frequency timer resolution =2.533318 MHz
+[2017.07.18-22.19.12:061][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.18-22.19.12:061][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.18-22.19.12:061][  0]LogMemory: Process Physical Memory: 263.87 MB used, 263.87 MB peak
+[2017.07.18-22.19.12:061][  0]LogMemory: Process Virtual Memory: 262.41 MB used, 262.41 MB peak
+[2017.07.18-22.19.12:061][  0]LogMemory: Physical Memory: 5552.96 MB used,  10737.72 MB free, 16290.68 MB total
+[2017.07.18-22.19.12:061][  0]LogMemory: Virtual Memory: 630.94 MB used,  10737.72 MB free, 134217728.00 MB total
+[2017.07.18-22.19.12:813][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.07.18-22.19.18:103][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.18-22.19.18:106][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.07.18-22.19.18:106][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.07.18-22.19.18:108][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.18-22.19.18:108][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.18-22.19.18:108][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.18-22.19.18:112][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.18-22.19.18:112][  0]LogD3D11RHI:     GPU DeviceId: 0x166 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.18-22.19.18:112][  0]LogWindows: EnumDisplayDevices:
+[2017.07.18-22.19.18:112][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2017.07.18-22.19.18:113][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.07.18-22.19.18:113][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.07.18-22.19.18:113][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.18-22.19.18:113][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2017.07.18-22.19.18:113][  0]LogD3D11RHI:   Driver Version: 10.18.10.4358 (internal:10.18.10.4358, unified:10.18.10.4358)
+[2017.07.18-22.19.18:113][  0]LogD3D11RHI:      Driver Date: 12-21-2015
+[2017.07.18-22.19.18:113][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2017.07.18-22.19.18:116][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.18-22.19.18:123][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.07.18-22.19.18:124][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Instructor/Documents/GitHub/Reef/Reef/Intermediate/Shaders/WorkingDirectory/7856/).
+[2017.07.18-22.19.18:124][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Instructor/AppData/Local/Temp/UnrealShaderWorkingDir/DDA0280247B7589580A53EB8F01F6B69/'.
+[2017.07.18-22.19.18:124][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.18-22.19.22:155][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.18-22.19.22:253][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.18-22.19.22:349][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.18-22.19.22:443][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.18-22.19.22:574][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.18-22.19.22:674][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.18-22.19.22:769][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.18-22.19.22:860][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.18-22.19.22:969][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.18-22.19.23:137][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.18-22.19.23:239][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
